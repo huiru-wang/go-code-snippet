@@ -1,0 +1,20 @@
+database:
+  mysql:
+    host: localhost
+    port: 3306
+    database: messdb
+    username: root
+    password: root
+    charset: utf8mb4
+  redis:
+    host: localhost
+    port: 6379
+    password: root
+server:
+  port: 9998
+  mode: debug
+  machineId: 0
+etcd:
+  host: localhost
+  port: 2379
+  serviceName: mess
